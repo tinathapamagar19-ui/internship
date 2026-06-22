@@ -8,7 +8,7 @@ for (let i = 0; i < arr1.length; i++) {
 }
 
 for (let i = 0; i < arr2.length; i++) {
-    array3.push(arr2[i]);
+    array3.push(arr2[i]); 
 }
 
 console.log(array3);
