@@ -8,12 +8,12 @@ const Assignment1 = () => {
       {button ? (
         <>
           <button
-            className="bg-green-500 h-10 w-20 border-2 mt-4"
+            className="bg-amber-600 h-10 w-20 border-2 mt-4"
             onClick={() => setButton(false)}
           >
             off
           </button>
-          <div className="bg-amber-600 h-300 w-200"></div>
+          <div className="bg-green-500 h-300 w-200"></div>
         </>
       ) : (
         <>
